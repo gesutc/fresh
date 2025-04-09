@@ -10,3 +10,5 @@ paruins.zsh
 #Install packages
 packages.zsh
 
+# Firefox port
+8118
