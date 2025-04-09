@@ -1,0 +1,18 @@
+# ssh
+
+alias pisync="ssh -p 23198 pi@10.10.20.198"
+alias gunraid="ssh -p 23199 root@10.10.20.199"
+alias zeroweb="ssh -p 23201 pi@10.10.20.201"
+
+#games
+
+alias cities="bash Games/Cities.Skylines-jc141/start.n.sh"
+alias cyberpunk="bash Games/Cyberpunk.2077-jc141/start.w.sh"
+alias spiderman="bash Games/Marvels.Spider.Man.Remastered-jc141/start.e-w.sh"
+
+#commands
+
+#copy html.zip to zeropi
+alias zerohtml="scp -P 23201 html.zip pi@10.10.20.201:html.zip"
+#edit pacman.conf
+alias editpac="sudo nano /etc/pacman.conf"
