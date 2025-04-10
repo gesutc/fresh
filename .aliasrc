@@ -16,3 +16,49 @@ alias spiderman="bash Games/Marvels.Spider.Man.Remastered-jc141/start.e-w.sh"
 alias zerohtml="scp -P 23201 html.zip pi@10.10.20.201:html.zip"
 #edit pacman.conf
 alias editpac="sudo nano /etc/pacman.conf"
+
+#pacman unlock
+alias unlock="sudo rm /var/lib/pacman/db.lck"
+alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
+
+#grub update
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+#Cleanup orphaned packages
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+
+# This will generate a list of explicitly installed packages
+alias list="sudo pacman -Qqe"
+#This will generate a list of explicitly installed packages without dependencies
+alias listt="sudo pacman -Qqet"
+# list of AUR packages
+alias listaur="sudo pacman -Qqem"
+# add > list at the end to write to a file
+
+#nano for important configuration files
+#know what you do in these files
+alias nlxdm="sudo $EDITOR /etc/lxdm/lxdm.conf"
+alias nlightdm="sudo $EDITOR /etc/lightdm/lightdm.conf"
+alias npacman="sudo $EDITOR /etc/pacman.conf"
+alias ngrub="sudo $EDITOR /etc/default/grub"
+alias nconfgrub="sudo $EDITOR /boot/grub/grub.cfg"
+alias nmkinitcpio="sudo $EDITOR /etc/mkinitcpio.conf"
+alias nmirrorlist="sudo $EDITOR /etc/pacman.d/mirrorlist"
+alias narcomirrorlist="sudo $EDITOR /etc/pacman.d/arcolinux-mirrorlist"
+alias nsddm="sudo $EDITOR /etc/sddm.conf"
+alias nsddmk="sudo $EDITOR /etc/sddm.conf.d/kde_settings.conf"
+alias nfstab="sudo $EDITOR /etc/fstab"
+alias nnsswitch="sudo $EDITOR /etc/nsswitch.conf"
+alias nsamba="sudo $EDITOR /etc/samba/smb.conf"
+alias ngnupgconf="sudo $EDITOR /etc/pacman.d/gnupg/gpg.conf"
+alias nhosts="sudo $EDITOR /etc/hosts"
+alias nhostname="sudo $EDITOR /etc/hostname"
+alias nresolv="sudo $EDITOR /etc/resolv.conf"
+alias nb="$EDITOR ~/.bashrc"
+alias nz="$EDITOR ~/.zshrc"
+alias nf="$EDITOR ~/.config/fish/config.fish"
+alias nneofetch="$EDITOR ~/.config/neofetch/config.conf"
+alias nplymouth="sudo $EDITOR /etc/plymouth/plymouthd.conf"
+alias nvconsole="sudo $EDITOR /etc/vconsole.conf"
+
