@@ -16,7 +16,16 @@ packages.zsh
 #Brave sync
 feature coffee ridge must casual uphold bar visit want reason zero medal dash spoil paper yard home nation utility target era cargo protect bird
 
+#steam
+sudo mkdir /mnt/steam
 /etc/fstab
+UUID=9a71e3b7-b2db-4c5d-a29b-f580cba6fa8c /mnt/steam     ext4    rw,relatime 0 0
+sudo mkdir /mnt/steam/steamlib
+sudo chmod 777 /mnt/steam/steamlib
+
+#spare drive
+/etc/fstab
+UUID=dd96601b-66a4-48c6-985b-707d43c2facd /mnt/NAME ext4    rw,relatime 0 0
 
 https://www.reddit.com/r/Keychron/comments/qytir4/keychron_k4_fn_keys_dont_work_in_linux/
 
