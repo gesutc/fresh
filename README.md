@@ -4,6 +4,9 @@ Fresh Install
 #Set shell to zsh
 chsh -s /usr/bin/zsh
 
+#Run first
+runfirst.zsh
+
 #Install paru
 paruins.zsh
 
@@ -14,7 +17,7 @@ packages.zsh
 8118
 
 #Brave sync
-feature coffee ridge must casual uphold bar visit want reason zero medal dash spoil paper yard home nation utility target era cargo protect bird
+feature coffee ridge must casual uphold bar visit want reason zero medal dash spoil paper yard home nation utility target era cargo protect
 
 #steam
 sudo mkdir /mnt/steam
