@@ -16,6 +16,9 @@ packages.zsh
 #Neofetch config
 /usr/bin/
 
+#SDDM
+/usr/share/sddm/themes
+
 #Firefox port
 8118
 
