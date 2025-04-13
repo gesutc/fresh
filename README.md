@@ -13,6 +13,9 @@ paruins.zsh
 #Install packages
 packages.zsh
 
+#Neofetch config
+/usr/bin/
+
 #Firefox port
 8118
 

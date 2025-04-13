@@ -1,0 +1,10 @@
+[General]
+showClock=true
+type=image
+Background="Backgrounds/back.png"
+FormPosition="center"
+MainColor="#175c66"
+AccentColor="#297043"
+ForceHideVirtualKeyboardButton="true"
+## OverrideLoginButtonTextColor="#175c66"
+## 001f0a #021709
