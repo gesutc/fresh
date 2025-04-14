@@ -1,9 +1,6 @@
 # fresh
 Fresh Install
 
-#Set shell to zsh
-chsh -s /usr/bin/zsh
-
 #Run first
 runfirst.zsh
 
@@ -19,8 +16,14 @@ packages.zsh
 #SDDM
 /usr/share/sddm/themes
 
+#Splash Screen
+Arch Simple Blue KDE 6
+
 #Firefox port
 8118
+
+#Set shell to zsh
+chsh -s /usr/bin/zsh
 
 #Brave sync
 feature coffee ridge must casual uphold bar visit want reason zero medal dash spoil paper yard home nation utility target era cargo protect
