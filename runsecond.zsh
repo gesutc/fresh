@@ -5,3 +5,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 cd fresh/
 sudo cp .zshrc ..
 sudo cp .aliasrc ..
+sudo cp neofetch /usr/bin/
+sudo cp -R sugar-candy/ /usr/share/sddm/themes/
+sudo cp nanorc /etc/
